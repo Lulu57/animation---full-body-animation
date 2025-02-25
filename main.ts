@@ -3,8 +3,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite = sprites.create(assets.image`BEARY`, SpriteKind.Player)
     animation.runImageAnimation(
     mySprite,
-    assets.animation`creepy bear`,
-    500,
-    false
+    assets.animation`bear procrastinates on hunting`,
+    100,
+    true
     )
 })
